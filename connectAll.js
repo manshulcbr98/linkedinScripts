@@ -2,7 +2,7 @@
 // Will send connection request to all visible recommendations
 
 var array = document.querySelectorAll('span');
-var searchString = “Connect”;
+var searchString = "Connect";
 for(var i = 0; i < array.length; i = i + 1) { 
     var text1 = array[i].textContent; 
     if ( text1.includes(searchString)){
